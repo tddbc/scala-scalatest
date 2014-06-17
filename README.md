@@ -35,9 +35,8 @@ make test
 
 ## ライセンス
 
-Apache License, Version 2.0です。
-詳しくはプロジェクト直下の `LICENSE` をご覧ください。
+サンプルのテスト `src/test/scala/samples/scalatest.scala` は、記載されいてるライセンスに従います。
 
-同梱している sbt は、 sbt のライセンスに従います。
-詳しくは `tools/sbt/LICENSE-sbt` をご覧ください。
+同梱している sbt は、 sbt のライセンスに従います。詳しくは `tools/sbt/LICENSE-sbt` をご覧ください。
 
+その他のファイルはApache License, Version 2.0です。詳しくはプロジェクト直下の `LICENSE` をご覧ください。
