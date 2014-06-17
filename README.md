@@ -32,3 +32,12 @@ make test
 * [Scala](http://www.scala-lang.org/)
 * [ScalaTest](http://www.scalatest.org/)
 * [sbt](http://www.scala-sbt.org/)
+
+## ライセンス
+
+Apache License, Version 2.0です。
+詳しくはプロジェクト直下の `LICENSE` をご覧ください。
+
+同梱している sbt は、 sbt のライセンスに従います。
+詳しくは `tools/sbt/jansi-license.txt` をご覧ください。
+
