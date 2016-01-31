@@ -25,10 +25,9 @@ http://www.scalatest.org/
 One way to use ScalaTest is to help make JUnit or TestNG tests more
 clear and concise. Here's an example:
 */
-import scala.collection.mutable.Stack
 import org.scalatest.Assertions
 import org.junit.Test
-import collection.mutable
+import scala.collection.mutable
 
 class StackSuite extends Assertions {
 
@@ -53,12 +52,12 @@ class StackSuite extends Assertions {
 Here's an example of a FunSuite with ShouldMatchers mixed in:
 */
 import org.scalatest.FunSuite
-import org.scalatest.matchers.ShouldMatchers
+import org.scalatest.Matchers
 
 import org.junit.runner.RunWith
 import org.scalatest.junit.JUnitRunner
 @RunWith(classOf[JUnitRunner])
-class ListSuite extends FunSuite with ShouldMatchers {
+class ListSuite extends FunSuite with Matchers {
 
   test("An empty list should be empty") {
     List() should be('empty)
