@@ -1,11 +1,8 @@
-name := "scala scalatest template"
+lazy val root = (project in file(".")).
+  settings(
+    name := "scala-scalatest",
+    version := "0.1-SNAPSHOT",
+    scalaVersion := "2.11.7"
+  )
 
-version := "1.0-SNAPSHOT"
-
-scalaVersion := "2.10.2"
-
-resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/"
-
-libraryDependencies += "junit" % "junit" % "4.11" % "test"
-
-libraryDependencies += "org.scalatest" %% "scalatest" % "1.9.1" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.6" % "test"
